@@ -1,0 +1,45 @@
+.form{
+  @include flex-column;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 4rem;
+  border-radius: .625rem;
+  width: 100%;
+
+  @include respond-to(large) { 
+    margin-bottom: 4rem
+    }
+
+    @include respond-to(small) { 
+        padding: 3rem 2rem;
+    }
+
+  
+  &__heading--main{
+    @include heading(form-heading);
+    padding-bottom: 2rem;
+  }
+
+  &__heading--input{
+    @include body(main-body__bold--black);
+    padding-bottom: .5rem;
+  }
+
+  &__input-field{
+    width: 100%;
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    padding-left: 1.125rem;
+    border: 1px solid rgba(188, 188, 188, 1);
+    border-radius: .3125rem;
+    margin-bottom: 2rem;
+  }
+
+  &__checkbox-container{
+    color: $heading-color;
+    margin-bottom: 2rem;
+  }
+
+  &__link{
+    @include body(main-body--links-underlined);
+  }
+}

@@ -1,0 +1,27 @@
+
+/// Regular font family
+/// @type List
+$font-family:'DM Sans', sans-serif !default;
+
+
+/// Copy text color
+/// @type Color
+$heading-color: rgba(0, 0, 0, 100) !default;
+$body-color: rgba(107, 107, 107, 100) !default;
+$footer-color: rgba(79, 79, 79, 100) !default;
+$placeholder-color: rgba(141, 141, 141, 100) !default;
+$btn-txt-color: rgba(255, 255, 255, 100) !default;
+
+
+/// Link & btn color
+/// @type Color
+$btn-color: rgba(102, 78, 252, 100) !default;
+
+
+
+//LAYOUT UTILITIES
+$max-width: 1060px !default;
+$layout-spacing:5.5rem;
+$layout-padding:0rem 2.5rem 0rem 2.5rem;
+
+

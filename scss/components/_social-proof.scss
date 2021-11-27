@@ -1,0 +1,9 @@
+.social-proof{
+    @include flex-column;
+
+    &__img{
+        max-width: 14.25rem;
+        width: 40%;
+        margin-bottom: 0.5rem;
+    }
+}

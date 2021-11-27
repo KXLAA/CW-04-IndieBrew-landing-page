@@ -1,0 +1,74 @@
+.how-it-works{
+    @include body(main-body);
+    margin-bottom: $layout-spacing;
+
+    &__container{
+        @include flex-center;
+
+        @include respond-to(small) { 
+           flex-direction: column-reverse;
+        }
+    }
+
+    &__container:nth-child(1){
+        margin-bottom: 5rem;
+    }
+
+    &__txt-container{
+        width: 100%;
+    }
+
+    &__heading{
+        @include heading(sub-heading);
+        padding-bottom: 1rem;
+    }
+
+    &__description{
+        padding-bottom: 1rem;
+    }
+
+
+    &__img-container{
+        width: 100%;
+    }
+
+    &__img--1{
+        padding-left: 5rem;
+
+        @include respond-to(medium) { 
+            padding-left: 1.5rem;
+        }
+
+        @include respond-to(small) { 
+            padding-left: 0rem;
+            margin-bottom: 3.5rem;
+        }
+    }
+
+    &__img--2{
+        padding-right: 5rem;
+
+        @include respond-to(medium) { 
+            padding-left: 1.5rem;
+        }
+
+        @include respond-to(small) { 
+            padding-left: 0rem;
+            padding-right: 0rem;
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 3.5rem;
+        }
+    }
+
+
+}
+
+.container--n{
+    @include respond-to(small) { 
+        flex-direction: column;
+     }
+
+        
+}
+

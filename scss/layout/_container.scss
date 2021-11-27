@@ -1,0 +1,13 @@
+.container{
+    @include container-center;
+
+    @include respond-to(medium) { 
+        padding: 0rem 2rem 0rem 2rem;
+
+    }
+
+    @include respond-to(small) { 
+        padding: 0rem 1.5rem 0rem 1.5rem;
+
+    }
+}
