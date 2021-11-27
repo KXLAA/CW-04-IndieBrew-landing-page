@@ -1,121 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IndieBrew - Your weekly personal feed digest.</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/main.css">
-    <script src="/script.js" defer></script>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="script.js" defer></script>
+  </head>
 
-<body class="sign-up__body">
+  <body class="sign-up__body">
     <section class="sign-up">
+      <div class="container--var">
+        <nav class="nav">
+          <img src="Assets/Logo.svg" alt="IndieBrew-logo" class="nav__logo" />
 
-        <div class="container--var">
+          <a href="index.html" class="return__link sign-up__return-container">
+            <img
+              src="Assets/Back Arrow.svg"
+              alt=""
+              class="sign-up__return-img"
+            />
 
+            <p class="sign-up__return-txt">Back to homepage</p>
+          </a>
+        </nav>
 
-            <nav class="nav">
-                <img src="/Assets/Logo.svg" alt="IndieBrew-logo" class="nav__logo">
+        <div class="sign-up__center">
+          <div class="sign-up__container">
+            <div class="sign-up__description-container">
+              <div class="sign-up__heading">Create your personalized feed.</div>
 
-  
-                    <a href="/index.html" class="return__link sign-up__return-container">
-                        <img src="/Assets/Back Arrow.svg" alt="" class="sign-up__return-img">
+              <div class="sign-up__list-item">
+                <div class="sign-up__emoji">🎈</div>
 
-                        <p class="sign-up__return-txt">Back to homepage</p>
-                    </a>
-
-            </nav>
-
-
-
-            <div class="sign-up__center">
-
-                <div class="sign-up__container">
-
-                <div class="sign-up__description-container">
-                    <div class="sign-up__heading">Create your personalized feed.</div>
-
-                    <div class="sign-up__list-item">
-                        <div class="sign-up__emoji">
-                            🎈
-                        </div>
-
-                        <div class="sign-up__txt">
-                            <p> <span class="body__bold--black">Over 20 resources.</span> With resources ranging from Reddit to IndieHackers, we’ve got all your needs covered.</p>
-                        </div>
-                    </div>
-
-
-                    <div class="sign-up__list-item">
-                        <div class="sign-up__emoji">
-                            🗞
-                        </div>
-
-                        <div class="sign-up__txt">
-                            <span class="body__bold--black">Delivered weekly.</span> Every week at exactly Tuesday 12:00 P.M. EST — expect a value-packed digest right in your email.
-                        </div>
-                    </div>
-
-                    <div class="sign-up__list-item">
-                        <div class="sign-up__emoji">
-                            💡
-                        </div>
-
-                        <div class="sign-up__txt">
-                            <span class="body__bold--black">Unlimited ideas.</span> With all the ideas you’ll be reading about, what’s stopping you from creating a sustainable startup?.
-                        </div>
-                    </div>
+                <div class="sign-up__txt">
+                  <p>
+                    <span class="body__bold--black">Over 20 resources.</span>
+                    With resources ranging from Reddit to IndieHackers, we’ve
+                    got all your needs covered.
+                  </p>
                 </div>
+              </div>
 
+              <div class="sign-up__list-item">
+                <div class="sign-up__emoji">🗞</div>
 
-
-
-                <div class="form">
-
-                    <h3 class="form__heading--main">Create your IndieBrew Account</h3>
-
-                    <div class="form__input-container">
-                        <p class="form__heading--input">Email</p>
-                        <input type="text" name="email" class="form__input-field" placeholder="john@example.com"/>
-                    </div>
-
-                    <div class="form__input-container">
-                        <p class="form__heading--input">Full Name</p>
-                        <input type="text" name="full-name" class="form__input-field" placeholder="John Doe"/>
-                    </div>
-
-                    <div class="form__input-container">
-                        <p class="form__heading--input">Password</p>
-                        <div class="form__password">
-                            <input type="password" class="form__input-field" name="Password" placeholder="At least 8 characters"/>
-                        </div>
-                    </div>
-
-                                
-                    <div class="form__checkbox-container">
-                        <input type="checkbox" class="form__checkbox"/> 
-                        By creating an account on IndieBrew, you agree to the
-                        <a href="#" class="form__link">Terms & Conditions.</a>
-                    </div>
-
-                    <div class="form__cta">
-                        <a href="#" class="form__btn">Create an Account</a>
-                    </div>
-    
+                <div class="sign-up__txt">
+                  <span class="body__bold--black">Delivered weekly.</span> Every
+                  week at exactly Tuesday 12:00 P.M. EST — expect a value-packed
+                  digest right in your email.
                 </div>
+              </div>
 
+              <div class="sign-up__list-item">
+                <div class="sign-up__emoji">💡</div>
 
+                <div class="sign-up__txt">
+                  <span class="body__bold--black">Unlimited ideas.</span> With
+                  all the ideas you’ll be reading about, what’s stopping you
+                  from creating a sustainable startup?.
                 </div>
-
+              </div>
             </div>
 
+            <div class="form">
+              <h3 class="form__heading--main">Create your IndieBrew Account</h3>
+
+              <div class="form__input-container">
+                <p class="form__heading--input">Email</p>
+                <input
+                  type="text"
+                  name="email"
+                  class="form__input-field"
+                  placeholder="john@example.com"
+                />
+              </div>
+
+              <div class="form__input-container">
+                <p class="form__heading--input">Full Name</p>
+                <input
+                  type="text"
+                  name="full-name"
+                  class="form__input-field"
+                  placeholder="John Doe"
+                />
+              </div>
+
+              <div class="form__input-container">
+                <p class="form__heading--input">Password</p>
+                <div class="form__password">
+                  <input
+                    type="password"
+                    class="form__input-field"
+                    name="Password"
+                    placeholder="At least 8 characters"
+                  />
+                </div>
+              </div>
+
+              <div class="form__checkbox-container">
+                <input type="checkbox" class="form__checkbox" />
+                By creating an account on IndieBrew, you agree to the
+                <a href="#" class="form__link">Terms & Conditions.</a>
+              </div>
+
+              <div class="form__cta">
+                <a href="#" class="form__btn">Create an Account</a>
+              </div>
+            </div>
+          </div>
         </div>
-
+      </div>
     </section>
-
-
-</body>
+  </body>
+</html>
